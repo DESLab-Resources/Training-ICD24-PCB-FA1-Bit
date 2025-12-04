@@ -535,7 +535,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "321d52f3-14e1-4a1b-8d48-6029db1b10ee")
+		(uuid "3abc205e-c7cc-4c8f-82bb-b3b4b1d8a001")
 		(property "Reference" "Q4"
 			(at 152.4 80.0099 0)
 			(effects
@@ -584,18 +584,63 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "2N3904_model.txt"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "00cdc9fb-46e1-472d-b453-c964eea0da37")
+			(uuid "fe95dc9c-29e9-4385-89e3-5ee090a572f8")
 		)
 		(pin "1"
-			(uuid "fbe1799a-db5f-4318-93af-011806ab3b6c")
+			(uuid "8f43f2fb-2ed0-47dd-9001-52d19e4c945f")
 		)
 		(pin "3"
-			(uuid "2bfc3cf1-04e1-483c-af6f-c1fc5bcb3840")
+			(uuid "2ab0f50d-e164-4bc1-8dc7-6db2c1a09803")
 		)
 		(instances
 			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/b7c2df59-ac61-486a-9460-5086e01633a1"
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/ccc6d5ad-8a58-4a59-ae4f-3b0ed0cb8f96"
 					(reference "Q4")
 					(unit 1)
 				)
@@ -658,14 +703,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "067c2879-8333-4802-85de-74fc0daa0764")
+			(uuid "daf973d4-adf0-4b41-b341-f8e70f659ed8")
 		)
 		(pin "1"
-			(uuid "5f0ba296-555d-4cee-8744-780dad13d09f")
+			(uuid "c5344ed7-adba-4633-b97c-ae9c6e576399")
 		)
 		(instances
 			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/b7c2df59-ac61-486a-9460-5086e01633a1"
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/ccc6d5ad-8a58-4a59-ae4f-3b0ed0cb8f96"
 					(reference "R5")
 					(unit 1)
 				)
@@ -682,7 +727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc773895-e555-47f9-b195-0c9a6e8a9325")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 152.4 59.6899 0)
 			(effects
 				(font
@@ -728,15 +773,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "8491c0c1-b751-4a5f-8903-d1520aa4d6c3")
+			(uuid "fc457e48-7f68-4ef9-98c2-34e82d82ba85")
 		)
 		(pin "1"
-			(uuid "08aac74d-b67e-448c-9808-d03a92fd245a")
+			(uuid "61cfadfe-c4dc-41e7-ad7b-58a3a3f2d061")
 		)
 		(instances
 			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/b7c2df59-ac61-486a-9460-5086e01633a1"
-					(reference "R7")
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/ccc6d5ad-8a58-4a59-ae4f-3b0ed0cb8f96"
+					(reference "R6")
 					(unit 1)
 				)
 			)

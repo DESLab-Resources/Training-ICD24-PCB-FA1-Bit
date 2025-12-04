@@ -458,16 +458,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 87.63) (xy 129.54 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23367e23-ca46-4a84-9c5b-059562695a73")
-	)
-	(wire
-		(pts
 			(xy 87.63 140.97) (xy 96.52 140.97)
 		)
 		(stroke
@@ -758,6 +748,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 87.63) (xy 129.54 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e816b756-67cd-4dca-9661-ed584c2f07f4")
+	)
+	(wire
+		(pts
 			(xy 81.28 105.41) (xy 87.63 105.41)
 		)
 		(stroke
@@ -883,7 +883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02505702-2fd1-42ec-af78-d9a77e1cdbbb")
-		(property "Reference" "R23"
+		(property "Reference" "R15"
 			(at 74.9299 113.03 0)
 			(effects
 				(font
@@ -929,15 +929,155 @@
 			)
 		)
 		(pin "2"
-			(uuid "85744a3d-f600-4ea5-919d-34c18f1c0657")
+			(uuid "2431ea1b-4356-445a-b564-91929cf4c1e6")
 		)
 		(pin "1"
-			(uuid "434b0c03-f6ce-4e28-b122-9c258097aaf0")
+			(uuid "7df84d91-859d-451a-ab43-4583b8e46e88")
 		)
 		(instances
 			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/0378ed08-922c-4b00-a4c2-d3046341e6fd"
-					(reference "R23")
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/c163f0a8-7b19-4740-9c97-b60a1695cc8f"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 185.42 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0954d9de-c6e6-44bb-ba51-79dbdebc0520")
+		(property "Reference" "R20"
+			(at 187.96 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 187.96 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 186.436 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "13430874-ca2c-4712-bba6-e1c6d27dd7eb")
+		)
+		(pin "1"
+			(uuid "e9b8d915-200b-4053-bc6e-76ad6a3bb00e")
+		)
+		(instances
+			(project "ICD24_FA"
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/c163f0a8-7b19-4740-9c97-b60a1695cc8f"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 120.65 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "380a5077-ab50-4bcb-9b34-600b4c78604e")
+		(property "Reference" "R18"
+			(at 119.3799 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220k"
+			(at 121.9199 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 120.904 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 120.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d25e07e9-6e53-46b6-86c1-2059890c7531")
+		)
+		(pin "1"
+			(uuid "88512357-d323-4e4a-8a07-851cb08c65be")
+		)
+		(instances
+			(project "ICD24_FA"
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/c163f0a8-7b19-4740-9c97-b60a1695cc8f"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -952,8 +1092,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "07a1143b-7b19-476c-b095-d848960fdd1e")
-		(property "Reference" "Q17"
+		(uuid "3e0eee79-7c6e-4e4e-8e99-58e87a14fd85")
+		(property "Reference" "Q12"
 			(at 132.08 76.1999 0)
 			(effects
 				(font
@@ -1001,159 +1141,64 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "2N3904_model.txt"
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "d649a2a5-4f84-4a44-bab9-c705280952ed")
+			(uuid "214f503a-165b-4832-ae62-c3c6f1837690")
 		)
 		(pin "1"
-			(uuid "a81f86a3-c325-43a7-b6f5-8a15965bac69")
+			(uuid "be174726-2a14-415a-9adc-06b6675a38cb")
 		)
 		(pin "3"
-			(uuid "4eb81a38-cff8-4ae8-be7a-8965672950fc")
+			(uuid "d9b1b254-4a4e-4d90-be84-1ee25944b932")
 		)
 		(instances
 			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/0378ed08-922c-4b00-a4c2-d3046341e6fd"
-					(reference "Q17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 185.42 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0954d9de-c6e6-44bb-ba51-79dbdebc0520")
-		(property "Reference" "R28"
-			(at 187.96 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47k"
-			(at 187.96 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 186.436 58.674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 185.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5d55826e-a0d8-4c30-8e1a-6a402a590392")
-		)
-		(pin "1"
-			(uuid "466baa34-3dfc-4fbd-9380-acd0d05b9440")
-		)
-		(instances
-			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/0378ed08-922c-4b00-a4c2-d3046341e6fd"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 120.65 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "380a5077-ab50-4bcb-9b34-600b4c78604e")
-		(property "Reference" "R26"
-			(at 119.3799 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220k"
-			(at 121.9199 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 120.904 86.614 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 120.65 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2bd44904-0f18-41c2-93f4-3d7d186a4e3a")
-		)
-		(pin "1"
-			(uuid "c2b5b698-5c19-46fd-857b-df0611d28691")
-		)
-		(instances
-			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/0378ed08-922c-4b00-a4c2-d3046341e6fd"
-					(reference "R26")
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/c163f0a8-7b19-4740-9c97-b60a1695cc8f"
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -1169,7 +1214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58acf497-7c00-42d3-8aba-7f960c2e233c")
-		(property "Reference" "R25"
+		(property "Reference" "R17"
 			(at 95.2499 102.87 0)
 			(effects
 				(font
@@ -1215,161 +1260,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "63c7f56d-45d8-46a6-930c-c0f390c5d134")
+			(uuid "d1d34172-089c-4677-81f8-2a261fc92faa")
 		)
 		(pin "1"
-			(uuid "c18a1492-fa36-4373-82e8-4586696badd2")
+			(uuid "41c52cfc-f49c-4c26-8a99-0a0f3a0e937f")
 		)
 		(instances
 			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/0378ed08-922c-4b00-a4c2-d3046341e6fd"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 139.7 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "831c9406-87a0-43e1-aab4-a87ab31688ce")
-		(property "Reference" "R27"
-			(at 138.4299 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220k"
-			(at 140.9699 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 139.954 86.614 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 139.7 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb3f3517-7146-4d81-b0f3-8ed31d8f010b")
-		)
-		(pin "1"
-			(uuid "463e90bb-661e-4a1e-bbb9-8e4549aae137")
-		)
-		(instances
-			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/0378ed08-922c-4b00-a4c2-d3046341e6fd"
-					(reference "R27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 85.09 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2af1f13-437a-438a-ab6f-5f00d16aed90")
-		(property "Reference" "Q16"
-			(at 90.17 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 90.17 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 90.17 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 85.09 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 85.09 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3242d65f-4ac2-4a59-be2d-2db601d77bfc")
-		)
-		(pin "1"
-			(uuid "4d9dd906-7d2f-4739-a02f-72f3a7744a79")
-		)
-		(pin "3"
-			(uuid "4f9cde53-3ab5-4b83-840b-36dbd13728dc")
-		)
-		(instances
-			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/0378ed08-922c-4b00-a4c2-d3046341e6fd"
-					(reference "Q16")
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/c163f0a8-7b19-4740-9c97-b60a1695cc8f"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1384,8 +1283,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cfae2f8d-5ac9-4d9d-89ac-a7c3d2570193")
-		(property "Reference" "Q15"
+		(uuid "816dd448-b3d2-461d-8f22-814af63abfcc")
+		(property "Reference" "Q10"
 			(at 90.17 93.9799 0)
 			(effects
 				(font
@@ -1433,19 +1332,64 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "2N3904_model.txt"
+			(at 85.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 85.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 85.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 85.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 85.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "b11de900-097e-48bf-b28b-1368b7436128")
+			(uuid "8cbf5ea9-b540-4d04-9c5c-7e81f98f8b3a")
 		)
 		(pin "1"
-			(uuid "067764be-6ff6-4683-bf9e-13aa0c86fd7c")
+			(uuid "e61719a3-a348-40b3-94a0-a00400ed7fd7")
 		)
 		(pin "3"
-			(uuid "fadb1125-5e7a-4cd2-8f74-7ae57c705c1d")
+			(uuid "71b7e098-952f-472b-b402-0e630ee026ef")
 		)
 		(instances
 			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/0378ed08-922c-4b00-a4c2-d3046341e6fd"
-					(reference "Q15")
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/c163f0a8-7b19-4740-9c97-b60a1695cc8f"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -1453,16 +1397,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 77.47 105.41 90)
+		(at 139.7 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d26e406c-80b5-4f3a-807c-a4d585dafaac")
-		(property "Reference" "R24"
-			(at 76.1999 102.87 0)
+		(uuid "831c9406-87a0-43e1-aab4-a87ab31688ce")
+		(property "Reference" "R19"
+			(at 138.4299 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1415,7 @@
 			)
 		)
 		(property "Value" "220k"
-			(at 78.7399 102.87 0)
+			(at 140.9699 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1424,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
-			(at 77.724 104.394 90)
+			(at 139.954 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 105.41 0)
+			(at 139.7 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +1442,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 77.47 105.41 0)
+			(at 139.7 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,15 +1451,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0ae3c109-2d1b-4803-9c97-6f7b74df415c")
+			(uuid "3e85ef2d-4c4a-4f24-b59c-f313581bc796")
 		)
 		(pin "1"
-			(uuid "18111655-99ad-4896-a2cb-7ad8208a2f52")
+			(uuid "bdab8cb1-0349-43f4-96fa-3020d17ffa9e")
 		)
 		(instances
 			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/0378ed08-922c-4b00-a4c2-d3046341e6fd"
-					(reference "R24")
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/c163f0a8-7b19-4740-9c97-b60a1695cc8f"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1530,8 +1474,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2d878e8-a478-4b4a-8325-460af337ec7e")
-		(property "Reference" "Q18"
+		(uuid "837bdcbf-b2e1-45d7-93e3-31d5e72cd6ba")
+		(property "Reference" "Q13"
 			(at 132.08 114.2999 0)
 			(effects
 				(font
@@ -1579,19 +1523,255 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "2N3904_model.txt"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 127 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "657a1904-2abc-4d6b-835a-1b1afce97f17")
+			(uuid "0b5c2505-a040-4f92-b43d-892dddb23cba")
 		)
 		(pin "1"
-			(uuid "bc4ea35b-7eb0-4d4a-a5c7-ca4447db43e8")
+			(uuid "37799f0a-ce8f-467a-8764-f44f296a6e32")
 		)
 		(pin "3"
-			(uuid "2beec2dc-8f83-4bea-b949-ff20cba1d7d8")
+			(uuid "e9afe37f-ba70-4a9f-8e1f-e2e30cfe743e")
 		)
 		(instances
 			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/0378ed08-922c-4b00-a4c2-d3046341e6fd"
-					(reference "Q18")
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/c163f0a8-7b19-4740-9c97-b60a1695cc8f"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 77.47 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d26e406c-80b5-4f3a-807c-a4d585dafaac")
+		(property "Reference" "R16"
+			(at 76.1999 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220k"
+			(at 78.7399 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P15.24mm_Horizontal"
+			(at 77.724 104.394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 77.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "578cb6ad-884f-45a4-9fce-9885ec91f87e")
+		)
+		(pin "1"
+			(uuid "0101595a-7e87-4535-8bd9-4275d2e94121")
+		)
+		(instances
+			(project "ICD24_FA"
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/c163f0a8-7b19-4740-9c97-b60a1695cc8f"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 85.09 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4f75e3a-d78b-4bff-80f1-d69bbe01b31e")
+		(property "Reference" "Q11"
+			(at 90.17 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 90.17 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 90.17 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "2N3904_model.txt"
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "2N3904"
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34739a40-38e5-4789-8f7f-f9f1d7b98937")
+		)
+		(pin "1"
+			(uuid "2e38781b-3ccb-4ee0-aed6-c579c7a7e999")
+		)
+		(pin "3"
+			(uuid "4730b99c-b823-4a15-b8fe-5c41ffb5040d")
+		)
+		(instances
+			(project "ICD24_FA"
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/c163f0a8-7b19-4740-9c97-b60a1695cc8f"
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -1607,7 +1787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2759712-ed16-4f01-99d7-4c97ac055297")
-		(property "Reference" "R22"
+		(property "Reference" "R14"
 			(at 72.3899 124.46 0)
 			(effects
 				(font
@@ -1653,15 +1833,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3be70cfe-6200-4e85-8b87-e80736ba122c")
+			(uuid "7ec27c37-0d0d-4935-9d7c-0048f57b74f3")
 		)
 		(pin "1"
-			(uuid "45e40628-7e9e-439c-bee8-40d74253f00c")
+			(uuid "f5ee894b-d6c9-47a4-97a1-a9c74586e899")
 		)
 		(instances
 			(project "ICD24_FA"
-				(path "/b041be17-3693-4432-854e-c071e14fa049/0378ed08-922c-4b00-a4c2-d3046341e6fd"
-					(reference "R22")
+				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/c163f0a8-7b19-4740-9c97-b60a1695cc8f"
+					(reference "R14")
 					(unit 1)
 				)
 			)
