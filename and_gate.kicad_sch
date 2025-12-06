@@ -723,7 +723,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "MyLibrary:TO-92_Inline"
 			(at 106.68 80.645 0)
 			(effects
 				(font
@@ -734,7 +734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" ""
 			(at 101.6 78.74 0)
 			(effects
 				(font
@@ -744,7 +744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 101.6 78.74 0)
 			(effects
 				(font
@@ -1918,7 +1918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "MyLibrary:TO-92_Inline"
 			(at 128.27 57.785 0)
 			(effects
 				(font
@@ -1929,7 +1929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" ""
 			(at 123.19 55.88 0)
 			(effects
 				(font
@@ -1939,7 +1939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 123.19 55.88 0)
 			(effects
 				(font
@@ -2255,7 +2255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "MyLibrary:TO-92_Inline"
 			(at 106.68 64.135 0)
 			(effects
 				(font
@@ -2266,7 +2266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+		(property "Datasheet" ""
 			(at 101.6 62.23 0)
 			(effects
 				(font
@@ -2276,7 +2276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+		(property "Description" ""
 			(at 101.6 62.23 0)
 			(effects
 				(font

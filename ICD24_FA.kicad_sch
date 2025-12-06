@@ -1668,7 +1668,7 @@
 		)
 	)
 	(sheet
-		(at 127 25.4)
+		(at 130.81 25.4)
 		(size 21.59 13.97)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1684,7 +1684,7 @@
 		)
 		(uuid "974cf625-ee9e-4334-93f0-d464f8226994")
 		(property "Sheetname" "testbench_fa8_full"
-			(at 127 24.6884 0)
+			(at 130.81 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1693,7 @@
 			)
 		)
 		(property "Sheetfile" "testbench_fa8_full.kicad_sch"
-			(at 127 39.9546 0)
+			(at 130.81 39.9546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1796,7 @@
 	(sheet
 		(at 143.51 107.95)
 		(size 29.21 15.24)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
