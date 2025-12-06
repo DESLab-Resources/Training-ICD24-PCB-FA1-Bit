@@ -473,6 +473,20 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.5,
+        "diff_pair_width": 0.4,
+        "microvia_diameter": 0.6,
+        "microvia_drill": 0.2,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 1.2,
+        "via_drill": 0.6
       }
     ],
     "meta": {
@@ -480,7 +494,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "VDD"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "0"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -497,7 +524,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 80,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -520,45 +547,45 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
           "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
         },
         {
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Do Not Place",
+          "name": "${DNP}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
           "show": true
         },
         {
@@ -607,6 +634,12 @@
           "group_by": false,
           "label": "Sim.Name",
           "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": false
         }
       ],
@@ -931,11 +964,207 @@
       "testbench_fa8"
     ],
     [
-      "af850077-64b1-47dc-8b85-ef279fd6955a",
-      "testbench_fa9"
+      "d7077eab-831e-4201-b4eb-d4323af41b78",
+      "fa8"
     ],
     [
-      "4b0e5d75-e61c-4668-a1a2-441db09e49a8",
+      "d28fbcba-3fd1-4c72-9463-75236cf6cde3",
+      "fa1"
+    ],
+    [
+      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
+      "or_gate"
+    ],
+    [
+      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
+      "xor_gate"
+    ],
+    [
+      "4987014b-650c-493d-9b68-01a0ea861442",
+      "xor_gate1"
+    ],
+    [
+      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
+      "and_gate1"
+    ],
+    [
+      "be09045f-5a88-4d87-a403-3c19634801c7",
+      "and_gate"
+    ],
+    [
+      "ef7531ef-e2bc-4452-9f69-3143c0cdbbd5",
+      "fa2"
+    ],
+    [
+      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
+      "or_gate"
+    ],
+    [
+      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
+      "xor_gate"
+    ],
+    [
+      "4987014b-650c-493d-9b68-01a0ea861442",
+      "xor_gate1"
+    ],
+    [
+      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
+      "and_gate1"
+    ],
+    [
+      "be09045f-5a88-4d87-a403-3c19634801c7",
+      "and_gate"
+    ],
+    [
+      "6d8bad77-29ac-466c-857c-c667df03c3cd",
+      "fa7"
+    ],
+    [
+      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
+      "or_gate"
+    ],
+    [
+      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
+      "xor_gate"
+    ],
+    [
+      "4987014b-650c-493d-9b68-01a0ea861442",
+      "xor_gate1"
+    ],
+    [
+      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
+      "and_gate1"
+    ],
+    [
+      "be09045f-5a88-4d87-a403-3c19634801c7",
+      "and_gate"
+    ],
+    [
+      "7fc8dd24-3bbe-4e5e-a858-6d622873c989",
+      "fa5"
+    ],
+    [
+      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
+      "or_gate"
+    ],
+    [
+      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
+      "xor_gate"
+    ],
+    [
+      "4987014b-650c-493d-9b68-01a0ea861442",
+      "xor_gate1"
+    ],
+    [
+      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
+      "and_gate1"
+    ],
+    [
+      "be09045f-5a88-4d87-a403-3c19634801c7",
+      "and_gate"
+    ],
+    [
+      "3c41fd50-2b73-4c52-874f-330d013798fd",
+      "fa8"
+    ],
+    [
+      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
+      "or_gate"
+    ],
+    [
+      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
+      "xor_gate"
+    ],
+    [
+      "4987014b-650c-493d-9b68-01a0ea861442",
+      "xor_gate1"
+    ],
+    [
+      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
+      "and_gate1"
+    ],
+    [
+      "be09045f-5a88-4d87-a403-3c19634801c7",
+      "and_gate"
+    ],
+    [
+      "4e497602-77e3-46a8-88df-a5e3c99bbfcd",
+      "fa9"
+    ],
+    [
+      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
+      "or_gate"
+    ],
+    [
+      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
+      "xor_gate"
+    ],
+    [
+      "4987014b-650c-493d-9b68-01a0ea861442",
+      "xor_gate1"
+    ],
+    [
+      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
+      "and_gate1"
+    ],
+    [
+      "be09045f-5a88-4d87-a403-3c19634801c7",
+      "and_gate"
+    ],
+    [
+      "392cb1ce-1789-40b1-be04-22934b0155ad",
+      "fa4"
+    ],
+    [
+      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
+      "or_gate"
+    ],
+    [
+      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
+      "xor_gate"
+    ],
+    [
+      "4987014b-650c-493d-9b68-01a0ea861442",
+      "xor_gate1"
+    ],
+    [
+      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
+      "and_gate1"
+    ],
+    [
+      "be09045f-5a88-4d87-a403-3c19634801c7",
+      "and_gate"
+    ],
+    [
+      "9a2d3094-8f36-4dac-9564-19712d6bba7d",
+      "fa3"
+    ],
+    [
+      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
+      "or_gate"
+    ],
+    [
+      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
+      "xor_gate"
+    ],
+    [
+      "4987014b-650c-493d-9b68-01a0ea861442",
+      "xor_gate1"
+    ],
+    [
+      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
+      "and_gate1"
+    ],
+    [
+      "be09045f-5a88-4d87-a403-3c19634801c7",
+      "and_gate"
+    ],
+    [
+      "974cf625-ee9e-4334-93f0-d464f8226994",
+      "testbench_fa8_full"
+    ],
+    [
+      "01beff3b-2f01-4151-8081-b1aeff0406af",
       "fa8"
     ],
     [
@@ -1131,155 +1360,11 @@
       "and_gate"
     ],
     [
-      "01beff3b-2f01-4151-8081-b1aeff0406af",
-      "fa8"
+      "d1a07076-3f99-479b-bb2c-5a28524ecc3b",
+      "fa2_bit"
     ],
     [
-      "3c41fd50-2b73-4c52-874f-330d013798fd",
-      "fa8"
-    ],
-    [
-      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
-      "or_gate"
-    ],
-    [
-      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
-      "xor_gate"
-    ],
-    [
-      "4987014b-650c-493d-9b68-01a0ea861442",
-      "xor_gate1"
-    ],
-    [
-      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
-      "and_gate1"
-    ],
-    [
-      "be09045f-5a88-4d87-a403-3c19634801c7",
-      "and_gate"
-    ],
-    [
-      "6d8bad77-29ac-466c-857c-c667df03c3cd",
-      "fa7"
-    ],
-    [
-      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
-      "or_gate"
-    ],
-    [
-      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
-      "xor_gate"
-    ],
-    [
-      "4987014b-650c-493d-9b68-01a0ea861442",
-      "xor_gate1"
-    ],
-    [
-      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
-      "and_gate1"
-    ],
-    [
-      "be09045f-5a88-4d87-a403-3c19634801c7",
-      "and_gate"
-    ],
-    [
-      "4e497602-77e3-46a8-88df-a5e3c99bbfcd",
-      "fa9"
-    ],
-    [
-      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
-      "or_gate"
-    ],
-    [
-      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
-      "xor_gate"
-    ],
-    [
-      "4987014b-650c-493d-9b68-01a0ea861442",
-      "xor_gate1"
-    ],
-    [
-      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
-      "and_gate1"
-    ],
-    [
-      "be09045f-5a88-4d87-a403-3c19634801c7",
-      "and_gate"
-    ],
-    [
-      "7fc8dd24-3bbe-4e5e-a858-6d622873c989",
-      "fa5"
-    ],
-    [
-      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
-      "or_gate"
-    ],
-    [
-      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
-      "xor_gate"
-    ],
-    [
-      "4987014b-650c-493d-9b68-01a0ea861442",
-      "xor_gate1"
-    ],
-    [
-      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
-      "and_gate1"
-    ],
-    [
-      "be09045f-5a88-4d87-a403-3c19634801c7",
-      "and_gate"
-    ],
-    [
-      "392cb1ce-1789-40b1-be04-22934b0155ad",
-      "fa4"
-    ],
-    [
-      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
-      "or_gate"
-    ],
-    [
-      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
-      "xor_gate"
-    ],
-    [
-      "4987014b-650c-493d-9b68-01a0ea861442",
-      "xor_gate1"
-    ],
-    [
-      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
-      "and_gate1"
-    ],
-    [
-      "be09045f-5a88-4d87-a403-3c19634801c7",
-      "and_gate"
-    ],
-    [
-      "9a2d3094-8f36-4dac-9564-19712d6bba7d",
-      "fa3"
-    ],
-    [
-      "98a2ef80-1a7e-4730-a2ad-137ca2118e73",
-      "or_gate"
-    ],
-    [
-      "baae8bac-a055-4b4a-a7cf-9b81c7bee0b7",
-      "xor_gate"
-    ],
-    [
-      "4987014b-650c-493d-9b68-01a0ea861442",
-      "xor_gate1"
-    ],
-    [
-      "baf08e64-1ac2-4605-8e0a-62616cbdd8ae",
-      "and_gate1"
-    ],
-    [
-      "be09045f-5a88-4d87-a403-3c19634801c7",
-      "and_gate"
-    ],
-    [
-      "d28fbcba-3fd1-4c72-9463-75236cf6cde3",
+      "30165e55-4714-4a47-b727-f6e598a5c4c6",
       "fa1"
     ],
     [
@@ -1303,7 +1388,7 @@
       "and_gate"
     ],
     [
-      "ef7531ef-e2bc-4452-9f69-3143c0cdbbd5",
+      "c00c3bcc-2282-41fa-a76f-c139ff34e227",
       "fa2"
     ],
     [

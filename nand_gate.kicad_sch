@@ -577,7 +577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cb51858-52ed-4d3c-9afb-9e5d6b12896c")
-		(property "Reference" "Q6"
+		(property "Reference" "Q86"
 			(at 128.27 97.7899 0)
 			(effects
 				(font
@@ -682,7 +682,7 @@
 		(instances
 			(project "ICD24_FA"
 				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/eadfb294-1476-429b-adc0-6437a7fea880"
-					(reference "Q6")
+					(reference "Q86")
 					(unit 1)
 				)
 			)
@@ -698,7 +698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42753e89-5178-4e79-a38d-f814cfdd9261")
-		(property "Reference" "R9"
+		(property "Reference" "R87"
 			(at 128.27 67.3099 0)
 			(effects
 				(font
@@ -752,7 +752,7 @@
 		(instances
 			(project "ICD24_FA"
 				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/eadfb294-1476-429b-adc0-6437a7fea880"
-					(reference "R9")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -768,7 +768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6895d71-2d36-46d1-92a1-b9a60ca18bb9")
-		(property "Reference" "R7"
+		(property "Reference" "R88"
 			(at 104.1399 80.01 0)
 			(effects
 				(font
@@ -822,7 +822,7 @@
 		(instances
 			(project "ICD24_FA"
 				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/eadfb294-1476-429b-adc0-6437a7fea880"
-					(reference "R7")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -838,7 +838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1f34d7d-d24d-4790-a356-64f747d968f1")
-		(property "Reference" "R8"
+		(property "Reference" "R89"
 			(at 104.1399 96.52 0)
 			(effects
 				(font
@@ -892,7 +892,7 @@
 		(instances
 			(project "ICD24_FA"
 				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/eadfb294-1476-429b-adc0-6437a7fea880"
-					(reference "R8")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -908,7 +908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e520c078-ffb1-40cc-80e4-02a8948c300b")
-		(property "Reference" "Q5"
+		(property "Reference" "Q85"
 			(at 128.27 81.2799 0)
 			(effects
 				(font
@@ -1013,7 +1013,7 @@
 		(instances
 			(project "ICD24_FA"
 				(path "/b041be17-3693-4432-854e-c071e14fa049/bf61237c-4d83-41f1-a6ca-83160467bc81/eadfb294-1476-429b-adc0-6437a7fea880"
-					(reference "Q5")
+					(reference "Q85")
 					(unit 1)
 				)
 			)

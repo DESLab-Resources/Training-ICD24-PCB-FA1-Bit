@@ -1,0 +1,212 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "744d647a-fa0e-49be-9c44-50452091c7d5")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 160.02 86.36) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4090b87f-456c-4017-8c43-38432f47516a")
+	)
+	(bus
+		(pts
+			(xy 128.27 86.36) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5baac15f-f3fa-4024-9f8b-266e1953bba3")
+	)
+	(wire
+		(pts
+			(xy 128.27 78.74) (xy 132.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6204d2e3-0721-403a-823c-6f89375d971c")
+	)
+	(bus
+		(pts
+			(xy 128.27 82.55) (xy 132.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b82f7d-1fd4-44e0-9c02-b2b46404824e")
+	)
+	(wire
+		(pts
+			(xy 160.02 81.28) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b55acd-b692-4325-9b4e-4adaab76edaf")
+	)
+	(label "IN_A[0..7]"
+		(at 128.27 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91b6fc10-264f-4217-9260-8d02da14786b")
+	)
+	(label "IN_A[1..8]"
+		(at 128.27 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac85a234-0200-44a8-8689-3a821e07a390")
+	)
+	(label "fa8_sum[0..7]"
+		(at 170.18 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c19363f6-fa5e-4838-8979-08d341aac4f5")
+	)
+	(label "fa8_cout"
+		(at 170.18 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4878447-8008-4967-9ebd-8a7bd63774f6")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 128.27 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c718c721-3033-40b3-9bb9-98c838b774b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.4143 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 76.2)
+		(size 27.94 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d7077eab-831e-4201-b4eb-d4323af41b78")
+		(property "Sheetname" "fa8"
+			(at 132.08 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fa8.kicad_sch"
+			(at 132.08 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CIN" input
+			(at 132.08 78.74 180)
+			(uuid "6813cbd9-bb99-434c-855c-5d3a082e5549")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_A[0..7]" input
+			(at 132.08 82.55 180)
+			(uuid "06811a82-798f-4d7f-94a8-2d9fbcf6acb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN_B[0..7]" input
+			(at 132.08 86.36 180)
+			(uuid "497382ae-b413-442b-96ba-13613f63f31e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_COUT" output
+			(at 160.02 81.28 0)
+			(uuid "7ed6661f-3d06-4243-824c-8db5bb2c7eed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_SUM[0..7]" output
+			(at 160.02 86.36 0)
+			(uuid "3a6b6f40-e207-4018-acb6-08c2d6a5c7d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ICD24_FA"
+				(path "/b041be17-3693-4432-854e-c071e14fa049/974cf625-ee9e-4334-93f0-d464f8226994"
+					(page "67")
+				)
+			)
+		)
+	)
+)

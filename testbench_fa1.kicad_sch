@@ -484,7 +484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04abd0eb-cfa9-411e-ad5d-2c658eafa699")
-		(property "Reference" "V4"
+		(property "Reference" "V84"
 			(at 38.1 70.9901 0)
 			(effects
 				(font
@@ -575,7 +575,7 @@
 		(instances
 			(project "ICD24_FA"
 				(path "/b041be17-3693-4432-854e-c071e14fa049/ca11677b-10e0-4873-9630-591117a9d374"
-					(reference "V4")
+					(reference "V84")
 					(unit 1)
 				)
 			)
@@ -591,7 +591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40392454-d0a1-4fe4-8e28-e895e8576d55")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR085"
 			(at 34.29 87.63 0)
 			(effects
 				(font
@@ -641,7 +641,7 @@
 		(instances
 			(project "ICD24_FA"
 				(path "/b041be17-3693-4432-854e-c071e14fa049/ca11677b-10e0-4873-9630-591117a9d374"
-					(reference "#PWR05")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -657,7 +657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5509af79-4f6f-4f56-a066-a71a1c01b919")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR087"
 			(at 34.29 139.7 0)
 			(effects
 				(font
@@ -707,7 +707,7 @@
 		(instances
 			(project "ICD24_FA"
 				(path "/b041be17-3693-4432-854e-c071e14fa049/ca11677b-10e0-4873-9630-591117a9d374"
-					(reference "#PWR07")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -723,7 +723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "662d7576-450c-4e79-ab6c-0b7d4be06c03")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR086"
 			(at 34.29 111.76 0)
 			(effects
 				(font
@@ -773,7 +773,7 @@
 		(instances
 			(project "ICD24_FA"
 				(path "/b041be17-3693-4432-854e-c071e14fa049/ca11677b-10e0-4873-9630-591117a9d374"
-					(reference "#PWR06")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -789,7 +789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8b8a4f3-6adb-47df-946f-c4422ddf07c8")
-		(property "Reference" "V5"
+		(property "Reference" "V85"
 			(at 38.1 96.3901 0)
 			(effects
 				(font
@@ -880,7 +880,7 @@
 		(instances
 			(project "ICD24_FA"
 				(path "/b041be17-3693-4432-854e-c071e14fa049/ca11677b-10e0-4873-9630-591117a9d374"
-					(reference "V5")
+					(reference "V85")
 					(unit 1)
 				)
 			)
@@ -896,7 +896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e24ea661-9cc0-4c0a-b420-6d24687c9437")
-		(property "Reference" "V6"
+		(property "Reference" "V86"
 			(at 38.1 124.3301 0)
 			(effects
 				(font
@@ -987,7 +987,7 @@
 		(instances
 			(project "ICD24_FA"
 				(path "/b041be17-3693-4432-854e-c071e14fa049/ca11677b-10e0-4873-9630-591117a9d374"
-					(reference "V6")
+					(reference "V86")
 					(unit 1)
 				)
 			)
