@@ -116,7 +116,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -4696,7 +4696,7 @@
 			(uuid "f2cb7a3e-be4f-4ecc-82a8-e87bcc63821d")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/thh/Downloads/SS12D07VG4--3DModel-STEP-510211.STEP"
+		(model "${KIPRJMOD}/MyLibrary.pretty/SS12D07VG4--3DModel-STEP-510211.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4981,7 +4981,7 @@
 			(uuid "1af51507-b6f9-46d5-959a-6ef4b76f3ca3")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/thh/Downloads/SS12D07VG4--3DModel-STEP-510211.STEP"
+		(model "${KIPRJMOD}/MyLibrary.pretty/SS12D07VG4--3DModel-STEP-510211.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6261,7 +6261,7 @@
 			(uuid "92c8e1cd-8ccb-48a9-8d9c-74f026f9bfdf")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/thh/Downloads/SS12D07VG4--3DModel-STEP-510211.STEP"
+		(model "${KIPRJMOD}/MyLibrary.pretty/SS12D07VG4--3DModel-STEP-510211.STEP"
 			(offset
 				(xyz 0 0 0)
 			)
