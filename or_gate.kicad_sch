@@ -850,6 +850,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/2n3904-transistor-npn-40v-0-2a-3-chan-to-92"
+			(at 134.62 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d81910e6-0273-4957-8067-50c02142bdca")
 		)
@@ -1019,6 +1028,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 137.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-220-kohm-1-4w-1-5-vong-mau"
 			(at 137.16 41.91 0)
 			(effects
 				(font
@@ -1241,6 +1259,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 125.73 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/2n3904-transistor-npn-40v-0-2a-3-chan-to-92"
 			(at 125.73 73.66 0)
 			(effects
 				(font
@@ -1474,6 +1501,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/2n3904-transistor-npn-40v-0-2a-3-chan-to-92"
+			(at 156.21 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c8af9d79-f751-4a5d-8852-a35233c5b8fc")
 		)
@@ -1643,6 +1679,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 116.84 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-220-kohm-1-4w-1-5-vong-mau"
 			(at 116.84 62.23 0)
 			(effects
 				(font
@@ -1825,6 +1870,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 158.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "26b1ae8f-e00d-4a37-a1f5-a6f1a2af6153")
 		)
@@ -1991,6 +2045,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 114.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-220-kohm-1-4w-1-5-vong-mau"
 			(at 114.3 73.66 0)
 			(effects
 				(font

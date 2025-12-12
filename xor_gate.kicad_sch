@@ -1064,6 +1064,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/2n3904-transistor-npn-40v-0-2a-3-chan-to-92"
+			(at 92.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15a9fb53-c580-4638-aa09-786bc3e17f3f")
 		)
@@ -1345,6 +1354,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-220-kohm-1-4w-1-5-vong-mau"
+			(at 85.09 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "286d109f-8f51-45a3-a9b0-848735d9c598")
 		)
@@ -1615,6 +1633,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-220-kohm-1-4w-1-5-vong-mau"
 			(at 104.14 127 0)
 			(effects
 				(font
@@ -1949,6 +1976,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/2n3904-transistor-npn-40v-0-2a-3-chan-to-92"
+			(at 134.62 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a46a2c8-f2b7-4b6c-849f-530f67e8883e")
 		)
@@ -2222,6 +2258,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 83.82 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-220-kohm-1-4w-1-5-vong-mau"
 			(at 83.82 137.16 0)
 			(effects
 				(font
@@ -2556,6 +2601,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/2n3904-transistor-npn-40v-0-2a-3-chan-to-92"
+			(at 92.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "11718e4b-eefa-4be0-bf50-5cb12dfbd798")
 		)
@@ -2829,6 +2883,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 128.27 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-220-kohm-1-4w-1-5-vong-mau"
 			(at 128.27 109.22 0)
 			(effects
 				(font
@@ -3163,6 +3226,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/2n3904-transistor-npn-40v-0-2a-3-chan-to-92"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ebcd41ad-e76c-4195-9a86-a5500ea54318")
 		)
@@ -3436,6 +3508,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 214.63 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
 			(at 214.63 81.28 0)
 			(effects
 				(font
@@ -3722,6 +3803,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-220-kohm-1-4w-1-5-vong-mau"
+			(at 147.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "86b7cf87-c57d-476e-8796-1348008f1db7")
 		)
@@ -4000,6 +4090,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-220-kohm-1-4w-1-5-vong-mau"
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b5ededfd-3c2e-4a04-b801-e4bd4a5338c9")
 		)
@@ -4270,6 +4369,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 81.28 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-220-kohm-1-4w-1-5-vong-mau"
 			(at 81.28 148.59 0)
 			(effects
 				(font
@@ -4596,6 +4704,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 212.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/2n3904-transistor-npn-40v-0-2a-3-chan-to-92"
 			(at 212.09 92.71 0)
 			(effects
 				(font

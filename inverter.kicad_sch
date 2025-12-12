@@ -629,6 +629,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe95dc9c-29e9-4385-89e3-5ee090a572f8")
 		)
@@ -702,6 +711,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 129.54 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "daf973d4-adf0-4b41-b341-f8e70f659ed8")
 		)
@@ -764,6 +782,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 149.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
 			(at 149.86 60.96 0)
 			(effects
 				(font

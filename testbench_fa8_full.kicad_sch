@@ -1602,6 +1602,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 62.23 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "848633c6-5e36-436b-9bca-761fa6a86e3e")
 		)
@@ -1696,6 +1705,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
+			(at 60.96 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -1796,6 +1814,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 60.96 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "deb4f011-3041-4a2c-b2da-6f0cdadd07df")
 		)
@@ -1890,6 +1917,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
+			(at 60.96 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -1990,6 +2026,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 60.96 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb78247e-ca38-4ae7-94df-6b1eed25c4df")
 		)
@@ -2084,6 +2129,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
+			(at 62.23 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2184,6 +2238,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 60.96 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38bc97de-bf9d-4d15-9d91-f6a2acc3059e")
 		)
@@ -2278,6 +2341,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
+			(at 60.96 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2378,6 +2450,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 60.96 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a448427-8a09-4261-b398-4bacc65d3919")
 		)
@@ -2472,6 +2553,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
+			(at 62.23 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2572,6 +2662,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 62.23 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8755ba04-1f44-4860-9c8f-ad64d5cf99de")
 		)
@@ -2666,6 +2765,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
+			(at 60.96 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2766,6 +2874,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 62.23 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97d67116-e0c0-4f4f-93c4-7a177a88dae2")
 		)
@@ -2860,6 +2977,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
+			(at 62.23 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2960,6 +3086,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 62.23 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c40eaf38-96b7-4802-876c-4ed97247d9f1")
 		)
@@ -3054,6 +3189,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
+			(at 62.23 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

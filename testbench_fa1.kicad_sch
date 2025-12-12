@@ -566,6 +566,15 @@
 				(justify left)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 34.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "546cd52d-0f3a-48ec-b390-00799815eaef")
 		)
@@ -871,6 +880,15 @@
 				(justify left)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 34.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b04b86df-b007-4f36-aed6-ad462bf06a15")
 		)
@@ -976,6 +994,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Equipment Link" ""
+			(at 34.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

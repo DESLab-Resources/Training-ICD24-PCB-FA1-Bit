@@ -5497,6 +5497,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 264.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "568acd5d-17b4-4de9-a35a-df0439d25779")
 		)
@@ -5566,6 +5575,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
 			(at 264.16 52.07 0)
 			(effects
 				(font
@@ -5651,6 +5669,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 209.55 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "38f5779b-dcd9-4845-a172-63d06047e4e7")
 		)
@@ -5711,6 +5738,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 111.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
 			(at 111.76 121.92 0)
 			(effects
 				(font
@@ -5799,6 +5835,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 218.44 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59647be2-4dbe-478a-a542-ebb3b90aeb0b")
 		)
@@ -5868,6 +5913,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
 			(at 160.02 52.07 0)
 			(effects
 				(font
@@ -6011,6 +6065,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 251.46 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9666785b-238f-409a-807b-f21b780447b0")
 		)
@@ -6072,6 +6135,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 195.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 195.58 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,6 +6286,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f697d46b-7077-4f49-a776-13eb5bd79b1c")
 		)
@@ -6277,6 +6358,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 76.2 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
 			(at 76.2 93.98 0)
 			(effects
 				(font
@@ -6357,6 +6447,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
 			(at 264.16 93.98 0)
 			(effects
 				(font
@@ -6492,6 +6591,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 111.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
 			(at 111.76 66.04 0)
 			(effects
 				(font
@@ -6646,6 +6754,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 208.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "010204de-1a69-478e-86d8-4fa4175343a0")
 		)
@@ -6774,6 +6891,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 148.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 148.59 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,6 +7042,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "044e2d41-75d0-457f-8c4e-25d8015849a9")
 		)
@@ -6980,6 +7115,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 251.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 251.46 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7064,6 +7208,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 208.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "347c2f87-955d-4c8c-adf9-7e7785af9455")
 		)
@@ -7125,6 +7278,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
+			(at 251.46 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7200,6 +7362,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 251.46 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c3cfff2f-83db-4451-975d-7fe9f094da43")
 		)
@@ -7261,6 +7432,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 147.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 147.32 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,6 +7516,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 251.46 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8fad0689-746f-46af-a91b-7399ac7a0825")
 		)
@@ -7404,6 +7593,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 208.28 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
 			(at 208.28 38.1 0)
 			(effects
 				(font
@@ -7488,6 +7686,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed32b90f-efbf-450e-93aa-f93cc0eb9f34")
 		)
@@ -7549,6 +7756,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 205.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 205.74 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,6 +7899,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 111.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
 			(at 111.76 52.07 0)
 			(effects
 				(font
@@ -7838,6 +8063,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 208.28 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad42c921-39f3-412a-bdae-f4e11541789f")
 		)
@@ -7898,6 +8132,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 111.76 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
 			(at 111.76 80.01 0)
 			(effects
 				(font
@@ -7977,6 +8220,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0901b852-f2bf-44dc-9c4f-f1c4411ace8e")
 		)
@@ -8041,6 +8293,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 196.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 196.85 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8183,6 +8444,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 195.58 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cf3ebe14-3f83-490a-a025-e6d7212e4e7e")
 		)
@@ -8259,6 +8529,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 208.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cd9e11b0-0aeb-4b95-9b7c-71a006d82657")
 		)
@@ -8320,6 +8599,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 147.32 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8396,6 +8684,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
 			(at 264.16 66.04 0)
 			(effects
 				(font
@@ -8615,6 +8912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bccbb9dd-5f37-48d2-bb9a-76eab6511e7f")
 		)
@@ -8683,6 +8989,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 195.58 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2347ded8-6da0-4b8f-8e35-69d274a00de9")
 		)
@@ -8744,6 +9059,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 147.32 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,6 +9151,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 160.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a1f75912-6a8d-415e-a0b8-0b91a034231a")
 		)
@@ -8896,6 +9229,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 264.16 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
 			(at 264.16 24.13 0)
 			(effects
 				(font
@@ -9048,6 +9390,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 208.28 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bb0f9820-c550-4a99-820d-161c01fb8fb8")
 		)
@@ -9109,6 +9460,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 147.32 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 147.32 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9260,6 +9620,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 161.29 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ec022d9b-a13e-4445-bbb0-2f5ab42e48ad")
 		)
@@ -9337,6 +9706,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "590d665e-38cb-4f66-9848-ea63b23dabc2")
 		)
@@ -9398,6 +9776,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 251.46 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 251.46 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,6 +9928,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
 			(at 160.02 93.98 0)
 			(effects
 				(font
@@ -9818,6 +10214,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "55b63721-3a0c-4308-ac43-f14a69d686a1")
 		)
@@ -9898,6 +10303,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 264.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30137e12-9fa0-4175-8063-2179483fa714")
 		)
@@ -9958,6 +10372,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 111.76 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
 			(at 111.76 24.13 0)
 			(effects
 				(font
@@ -10104,6 +10527,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "725b1a03-7b22-4dec-b225-cfe169d1a585")
 		)
@@ -10167,6 +10599,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
 			(at 76.2 52.07 0)
 			(effects
 				(font
@@ -10246,6 +10687,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 251.46 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8854eab7-e17c-46aa-bc81-ed1ed00fdc68")
 		)
@@ -10314,6 +10764,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -10399,6 +10858,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 158.75 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5b17513e-ff43-452d-b893-b74858a17d3d")
 		)
@@ -10459,6 +10927,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 76.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
 			(at 76.2 107.95 0)
 			(effects
 				(font
@@ -10531,6 +11008,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 147.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 147.32 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10740,6 +11226,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 195.58 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9850cd2b-3f71-4dc3-9620-3cc7b2ef39e6")
 		)
@@ -10809,6 +11304,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 208.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
 			(at 208.28 121.92 0)
 			(effects
 				(font
@@ -10952,6 +11456,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
+			(at 76.2 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "259106c9-c26c-4562-a932-079a4a28b330")
 		)
@@ -11017,6 +11530,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 33.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/hang-rao-duc-don-2-54mm-40-chan-cong-1-hang-cao-6mm-xuyen-lo"
 			(at 33.02 140.97 0)
 			(effects
 				(font
@@ -11178,6 +11700,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 147.32 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "31cbcd8a-1b59-4ff3-9e62-a890dfb80d78")
 		)
@@ -11306,6 +11837,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 195.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 195.58 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11524,6 +12064,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 264.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d214dcf0-9d22-41f8-973f-56f00ea4137f")
 		)
@@ -11585,6 +12134,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 146.05 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,6 +12285,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 147.32 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0dd3b680-43fe-401b-ade1-17b54b05ada2")
 		)
@@ -11787,6 +12354,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
 			(at 100.33 146.05 0)
 			(effects
 				(font
@@ -11866,6 +12442,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 195.58 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e21822cf-733d-40e0-9925-b1450adecc5c")
 		)
@@ -11926,6 +12511,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" "https://www.thegioiic.com/ss-12d07vg4-cong-tac-truot-5-chan-xuyen-lo-on-on-2p2t-0-5a"
 			(at 111.76 107.95 0)
 			(effects
 				(font
@@ -11998,6 +12592,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 195.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
+			(at 195.58 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12082,6 +12685,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://nshopvn.com/product/led-duc-5mm-xanh-la-xanh-duong-do-trang-vang/"
+			(at 264.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f8aced7e-8bf9-458a-87b0-ea4804dc6233")
 		)
@@ -12150,6 +12762,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" "https://www.thegioiic.com/dien-tro-47-kohm-1-2w-5-4-vong-mau"
+			(at 251.46 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ee0b8adc-78b5-44a6-b521-35b27fdb545b")
 		)
@@ -12210,6 +12831,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Equipment Link" ""
 			(at 76.2 38.1 0)
 			(effects
 				(font

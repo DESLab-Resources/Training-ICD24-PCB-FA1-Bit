@@ -528,10 +528,10 @@
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": ";",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""
@@ -641,11 +641,17 @@
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Equipment Link",
+          "name": "Equipment Link",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -1386,6 +1392,10 @@
     [
       "be09045f-5a88-4d87-a403-3c19634801c7",
       "and_gate"
+    ],
+    [
+      "bdaa9791-4f4e-490c-a716-56ea95a2fc1d",
+      "Extensive Equipments"
     ]
   ],
   "text_variables": {}

@@ -943,6 +943,15 @@
 				(hide yes)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 43.18 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "178aaf71-6a9c-443d-b94a-4ba7645f01b9")
 		)

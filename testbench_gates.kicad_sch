@@ -788,6 +788,15 @@
 				(justify left)
 			)
 		)
+		(property "Equipment Link" ""
+			(at 120.65 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1444203-766e-4540-9d40-c247f9c012b0")
 		)
@@ -1025,6 +1034,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Equipment Link" ""
+			(at 120.65 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
